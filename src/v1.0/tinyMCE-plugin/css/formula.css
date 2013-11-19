@@ -1,0 +1,200 @@
+﻿.insert_formula{width:735px;height:405px;border:6px solid #8cbde3;background:#fff;text-align:left;margin:0 auto}	
+.insert_formula h1{height:35px;line-height:35px;padding-left:15px;background:#cbdfed;color:#2e5b80;font-size:14px;}	
+.infor_box{height:350px;padding:10px 15px;}
+.infor_tab{height:99px;position:relative;padding-top:21px;}
+.infor_tabul{height:22px;position:absolute;top:0;left:0;}
+.infor_tabul li{height:22px;width:61px;float:left;text-align:center}
+.infor_tabul li a{line-height:22px;height:22px;width:61px;float:left;background:url(../images/formula/formula.png) no-repeat -60px -30px;color:#535353}
+.infor_tabul li a.intabul_click{background-position:-60px 0px;color:#535353}
+.infor_tabul li a:hover{background-position:-60px 0px;color:#535353}
+.infor_cen{height:75px;border:1px solid #c8c8c8;padding:11px;}
+.formula_list{background:#f3f1f5;height:75px;}
+.formula_list dl{width:60px;height:75px;float:left;text-align:center}
+.formula_list dl.forsi_font{width:80px}
+.formula_list dl.forsi_font dt{width:40px;height:30px;margin:10px 0px 10px 20px;}
+.formula_list dl.forsi_font dd{width:80px}
+.formula_list dl dt{width:40px;height:30px;margin:10px 0px 10px 10px;}
+.formula_list dl dt a{width:40px;height:30px;display:block;}
+.formula_list dl dt a.fosi_fs{background:url(../images/formula/formula.png) no-repeat 0 -90px;}
+.formula_list dl dt a.fosi_jb{background:url(../images/formula/formula.png) no-repeat -60px -90px;}
+.formula_list dl dt a.fosi_gs{background:url(../images/formula/formula.png) no-repeat -120px -90px;}
+.formula_list dl dt a.fosi_jf{background:url(../images/formula/formula.png) no-repeat -180px -90px;}
+.formula_list dl dt a.fosi_ysf{background:url(../images/formula/formula.png) no-repeat -240px -90px;}
+.formula_list dl dt a.fosi_fkh{background:url(../images/formula/formula.png) no-repeat -300px -90px;}
+.formula_list dl dt a.fosi_hs{background:url(../images/formula/formula.png) no-repeat -360px -90px;}
+.formula_list dl dt a.fosi_qdwz{background:url(../images/formula/formula.png) no-repeat -420px -90px;}
+.formula_list dl dt a.fosi_xzrz{background:url(../images/formula/formula.png) no-repeat -480px -90px;}
+.formula_list dl dt a.fosi_gx{background:url(../images/formula/formula.png) no-repeat -540px -90px;}
+.formula_list dl dt a.fosi_jz{background:url(../images/formula/formula.png) no-repeat 0px -120px;}
+.formula_list dl dd{width:60px;height:25px;line-height:25px;color:#2e5b80}
+.formula_list dl dd a{color:#2e5b80}
+.sign_box{background:#f3f1f5;height:75px;}
+.sign_prev{width:14px;height:75px;float:left;}
+.sign_prev a{width:14px;height:75px;float:left;display:block;}
+.sign_prev a.signlist_left{background:url(../images/formula/formula.png) no-repeat 0 0}
+.sign_prev a.signlist_right{background:url(../images/formula/formula.png) no-repeat -30px 0;}
+.sign_list{width:632px;height:61px;float:left;margin:7px 10px;overflow:hidden}
+.sign_list ul{width:20000px;float:left}
+.sign_list ul li{width:24px;height:61px;float:left;display:block;margin:3px;}
+.sign_list ul li a{width:24px;height:24px;float:left;display:block;background:url(../images/formula/base_math.png) no-repeat;padding-bottom:6px}
+.sign_list ul li a.base_math01{background-position:0 0;}
+.sign_list ul li a.base_math02{background-position:-30px 0;}
+.sign_list ul li a.base_math03{background-position:-60px 0;}
+.sign_list ul li a.base_math04{background-position:-90px 0;}
+.sign_list ul li a.base_math05{background-position:-120px 0;}
+.sign_list ul li a.base_math06{background-position:-150px 0;}
+.sign_list ul li a.base_math07{background-position:-180px 0}
+.sign_list ul li a.base_math08{background-position:-210px 0}
+.sign_list ul li a.base_math09{background-position:-240px 0}
+.sign_list ul li a.base_math10{background-position:-270px 0}
+.sign_list ul li a.base_math11{background-position:-300px 0}
+.sign_list ul li a.base_math12{background-position:-330px 0}
+.sign_list ul li a.base_math13{background-position:-360px 0}
+.sign_list ul li a.base_math14{background-position:-390px 0}
+.sign_list ul li a.base_math15{background-position:-420px 0}
+.sign_list ul li a.base_math16{background-position:-450px 0}
+.sign_list ul li a.base_math17{background-position:-480px 0}
+.sign_list ul li a.base_math18{background-position:-510px 0}
+.sign_list ul li a.base_math19{background-position:-540px 0}
+.sign_list ul li a.base_math20{background-position:-570px 0}
+.sign_list ul li a.base_math21{background-position:0 -30px;}
+.sign_list ul li a.base_math22{background-position:-30px -30px;}
+.sign_list ul li a.base_math23{background-position:-60px -30px;}
+.sign_list ul li a.base_math24{background-position:-90px -30px;}
+.sign_list ul li a.base_math25{background-position:-120px -30px;}
+.sign_list ul li a.base_math26{background-position:-150px -30px;}
+.sign_list ul li a.base_math27{background-position:-180px -30px}
+.sign_list ul li a.base_math28{background-position:-210px -30px}
+.sign_list ul li a.base_math29{background-position:-240px -30px}
+.sign_list ul li a.base_math30{background-position:-270px -30px}
+.sign_list ul li a.base_math31{background-position:-300px -30px}
+.sign_list ul li a.base_math32{background-position:-330px -30px}
+.sign_list ul li a.base_math33{background-position:-360px -30px}
+.sign_list ul li a.base_math34{background-position:-390px -30px}
+.sign_list ul li a.base_math35{background-position:-420px -30px}
+.sign_list ul li a.base_math36{background-position:-450px -30px}
+.sign_list ul li a.base_math37{background-position:-480px -30px}
+.sign_list ul li a.base_math38{background-position:-510px -30px}
+.sign_list ul li a.base_math39{background-position:-540px -30px}
+.sign_list ul li a.base_math40{background-position:-570px -30px}
+.sign_list ul li a.base_math41{background-position:0 -60px}
+.sign_list ul li a.base_math42{background-position:-30px -60px}
+.sign_list ul li a.base_math43{background-position:-60px -60px}
+.sign_list ul li a.base_math44{background-position:-90px -60px}
+.sign_list ul li a.base_math45{background-position:-120px -60px}
+.sign_list ul li a.base_math46{background-position:-150px -60px;}
+.sign_list ul li a.base_math47{background-position:-180px -60px}
+.sign_list ul li a.base_math48{background-position:-210px -60px}
+.sign_list ul li a.base_math49{background-position:-240px -60px}
+.sign_list ul li a.base_math50{background-position:-270px -60px}
+.sign_list ul li a.base_math51{background-position:-300px -60px}
+.sign_list ul li a.base_math52{background-position:-330px -60px}
+.sign_list ul li a.base_math53{background-position:-360px -60px}
+.sign_list ul li a.base_math54{background-position:-390px -60px}
+.sign_list ul li a.base_math55{background-position:-420px -60px}
+.sign_list ul li a.base_math56{background-position:-450px -60px}
+.sign_list ul li a.base_math57{background-position:-480px -60px}
+.sign_list ul li a.base_math58{background-position:-510px -60px}
+.sign_list ul li a.base_math59{background-position:-540px -60px}
+.sign_list ul li a.base_math60{background-position:-570px -60px}
+.sign_list ul li a.base_math61{background-position:0 -90px;}
+.sign_list ul li a.base_math62{background-position:-30px -90px;}
+.sign_list ul li a.base_math63{background-position:-60px -90px;}
+.sign_list ul li a.base_math64{background-position:-90px -90px;}
+.sign_list ul li a.base_math65{background-position:-120px -90px;}
+.sign_list ul li a.base_math66{background-position:-150px -90px;}
+.sign_list ul li a.base_math67{background-position:-180px -90px}
+.sign_list ul li a.base_math68{background-position:-210px -90px}
+.sign_list ul li a.base_math69{background-position:-240px -90px}
+.sign_list ul li a.base_math70{background-position:-270px -90px}
+
+
+.forsi_select{width:693px;height:145px;border:1px solid #bababa;line-height:1em;padding:8px 5px 5px;resize:none;font-size:4em;font-family:"Century Schoolbook";font-style:italic;color:#535353;margin-top:12px;}
+.forsi_select input {font-family:"Century Schoolbook";font-style:italic;font-size:40px;}
+.forsi_btn{height:30px;padding-top:15px;text-align:right;}
+.fosi_fsbox{border:1px solid #bababa;background:#fff;position:absolute;top:80px;left:-149px;zoom:1;z-index:2;}
+.fosi_fsbox span{width:14px;height:9px;position:absolute;top:-9px;background:url(../images/formula/formula.png) -150px 0px;dispaly:block;margin:0 auto}
+.fosi_fsboxcon{height:405px;overflow:hidden;overflow-y:auto;}
+.fosi_fsbox h2{height:28px;line-height:28px;background:#dde7ee;color:#2e5b80;padding-left:9px;text-align:left}
+.fosi_fsbox ul{padding:6px 0;position:static;height:auto;zoom:1;width:270px;}
+.fosi_fsbox ul li{width:72px;height:96px;background:none;float:left;margin:6px 6px;}
+.fosi_fsbox ul li a{width:72px;height:96px;display:block;float:left;background:none}
+
+.fosi_fsboxd {border:1px solid #bababa;background:#fff;position:absolute;top:80px;left:-149px;zoom:1;z-index:2;}
+.fosi_fsboxd  span{width:14px;height:9px;position:absolute;top:-9px;background:url(../images/formula/formula.png) -150px 0px;dispaly:block;margin:0 auto}
+.fosi_fsboxd  h2{height:28px;line-height:28px;background:#dde7ee;color:#2e5b80;padding-left:9px;text-align:left}
+.fosi_fsboxd  ul{padding:6px 0;position:static;height:auto;zoom:1;width:170px;}
+.fosi_fsboxd  ul li{width:72px;height:96px;background:none;float:left;margin:6px 6px;}
+.fosi_fsboxd  ul li a{width:72px;height:96px;display:block;float:left;background:none}
+
+.insert_sign{width:213px;height:403px;border:6px solid #8cbde3;background:#fff;text-align:left;margin:0 auto;margin-top:200px;}
+.insert_sign h1{height:35px;line-height:35px;padding-left:15px;background:#cbdfed;color:#2e5b80;font-size:14px;}	
+.insi_box{padding:9px 7px;}
+.insibox_list{width:185px;height:299px;border:1px solid #bababa;margin-top:10px;overflow-y:auto;overflow-x:hidden;padding:5px;}
+.insibox_list ul{border-bottom:1px solid #bababa;zoom:1;padding-bottom:5px;}
+.insibox_list ul li{width:24px;height:24px;line-height:24px;float:left;}
+.insibox_list ul li a{width:24px;height:24px;float:left;}
+.insibox_list ul li a.insibox_locn{background:url(../images/formula/formula.png) no-repeat 0 -210px}
+.insibox_list ul li a.insibox_locn2{background:url(../images/formula/formula.png) no-repeat -30px -210px}
+.insibox_list ul li a.insibox_locn3{background:url(../images/formula/formula.png) no-repeat -60px -210px}
+.insibox_list ul li a.insibox_locn4{background:url(../images/formula/formula.png) no-repeat -90px -210px}
+.insibox_list ul li a.insibox_locn5{background:url(../images/formula/formula.png) no-repeat -120px -210px}
+.insibox_list ul li a.insibox_locn6{background:url(../images/formula/formula.png) no-repeat -150px -210px}
+.insibox_list ul li a.insibox_locn7{background:url(../images/formula/formula.png) no-repeat -180px -210px}
+.insibox_list ul li a.insibox_locn8{background:url(../images/formula/formula.png) no-repeat -210px -210px}
+.insibox_list ul li a.insibox_locn9{background:url(../images/formula/formula.png) no-repeat -240px -210px}
+.insibox_list ul li a.insibox_locn10{background:url(../images/formula/formula.png) no-repeat -270px -210px}
+.insibox_list ul li a.insibox_locn11{background:url(../images/formula/formula.png) no-repeat -300px -210px}
+.insibox_list ul li a.insibox_locn12{background:url(../images/formula/formula.png) no-repeat -330px -210px}
+.insibox_list ul li a.insibox_locn13{background:url(../images/formula/formula.png) no-repeat -360px -210px}
+.insibox_list ul li a.insibox_locn14{background:url(../images/formula/formula.png) no-repeat -390px -210px}
+.insibox_list ul li a.insibox_locn15{background:url(../images/formula/formula.png) no-repeat -420px -210px}
+.insibox_list ul li a.insibox_locn16{background:url(../images/formula/formula.png) no-repeat -450px -210px}
+.insibox_list ul li a.insibox_locn17{background:url(../images/formula/formula.png) no-repeat -480px -210px}
+.insibox_list ul li a.insibox_locn18{background:url(../images/formula/formula.png) no-repeat -510px -210px}
+.insibox_list ul li a.insibox_locn19{background:url(../images/formula/formula.png) no-repeat -540px -210px}
+.insibox_list ul li a.insibox_locn20{background:url(../images/formula/formula.png) no-repeat -570px -210px}
+.insibox_list ul li a.insibox_locn21{background:url(../images/formula/formula.png) no-repeat 0 -240px}
+.insibox_list ul li a.insibox_locn22{background:url(../images/formula/formula.png) no-repeat -30px -210px}
+.insibox_list ul li a.insibox_locn23{background:url(../images/formula/formula.png) no-repeat -60px -240px}
+.insibox_list ul li a.insibox_locn24{background:url(../images/formula/formula.png) no-repeat -90px -240px}
+.insibox_list ul li a.insibox_locn25{background:url(../images/formula/formula.png) no-repeat -120px -240px}
+.insibox_list ul li a.insibox_locn26{background:url(../images/formula/formula.png) no-repeat -150px -240px}
+.insibox_list ul li a.insibox_locn27{background:url(../images/formula/formula.png) no-repeat -180px -240px}
+.insibox_list ul li a.insibox_locn28{background:url(../images/formula/formula.png) no-repeat -210px -240px}
+.insibox_list ul li a.insibox_locn29{background:url(../images/formula/formula.png) no-repeat -240px -240px}
+.insibox_list ul li a.insibox_locn30{background:url(../images/formula/formula.png) no-repeat -270px -240px}
+.insibox_list ul li a.insibox_locn31{background:url(../images/formula/formula.png) no-repeat -300px -240px}
+.insibox_list ul li a.insibox_locn32{background:url(../images/formula/formula.png) no-repeat -330px -240px}
+.insibox_list ul li a.insibox_locn33{background:url(../images/formula/formula.png) no-repeat -360px -240px}
+.insibox_list ul li a.insibox_locn34{background:url(../images/formula/formula.png) no-repeat -390px -240px}
+.insibox_list ul li a.insibox_locn35{background:url(../images/formula/formula.png) no-repeat -420px -240px}
+.insibox_list ul li a.insibox_locn36{background:url(../images/formula/formula.png) no-repeat -450px -240px}
+.insibox_list ul li a.insibox_locn37{background:url(../images/formula/formula.png) no-repeat -480px -240px}
+.insibox_list ul li a.insibox_locn38{background:url(../images/formula/formula.png) no-repeat -510px -240px}
+.insibox_list ul li a.insibox_locn39{background:url(../images/formula/formula.png) no-repeat -540px -240px}
+.insibox_list ul li a.insibox_locn40{background:url(../images/formula/formula.png) no-repeat -570px -240px}
+.insibox_list ul li a.insibox_locn33{background:url(../images/formula/formula.png) no-repeat -360px -240px}
+.insibox_list ul li a.insibox_locn34{background:url(../images/formula/formula.png) no-repeat -390px -240px}
+.insibox_list ul li a.insibox_locn35{background:url(../images/formula/formula.png) no-repeat -420px -240px}
+.insibox_list ul li a.insibox_locn36{background:url(../images/formula/formula.png) no-repeat -450px -240px}
+.insibox_list ul li a.insibox_locn37{background:url(../images/formula/formula.png) no-repeat -480px -240px}
+.insibox_list ul li a.insibox_locn38{background:url(../images/formula/formula.png) no-repeat -510px -240px}
+.insibox_list ul li a.insibox_locn39{background:url(../images/formula/formula.png) no-repeat -540px -240px}
+.insibox_list ul li a.insibox_locn40{background:url(../images/formula/formula.png) no-repeat -570px -240px}
+.insibox_list ul li a.insibox_locn41{background:url(../images/formula/formula.png) no-repeat 0px -270px}
+.insibox_list ul li a.insibox_locn42{background:url(../images/formula/formula.png) no-repeat -30px -270px}
+.insibox_list ul li a.insibox_locn43{background:url(../images/formula/formula.png) no-repeat -60px -270px}
+.insibox_list ul li a.insibox_locn44{background:url(../images/formula/formula.png) no-repeat -90px -270px}
+.insibox_list ul li a.insibox_locn45{background:url(../images/formula/formula.png) no-repeat -120px -270px}
+.insibox_list ul li a.insibox_locn46{background:url(../images/formula/formula.png) no-repeat -150px -270px}
+.insibox_list ul li a.insibox_locn47{background:url(../images/formula/formula.png) no-repeat -180px -270px}
+.insibox_list ul li a.insibox_locn48{background:url(../images/formula/formula.png) no-repeat -210px -270px}
+.insibox_list ul li a.insibox_locn49{background:url(../images/formula/formula.png) no-repeat -240px -270px}
+.insibox_list ul li a.insibox_locn50{background:url(../images/formula/formula.png) no-repeat -270px -270px}
+.insibox_list ul li a.insibox_locn51{background:url(../images/formula/formula.png) no-repeat -300px -270px}
+.insibox_list ul li a.insibox_locn52{background:url(../images/formula/formula.png) no-repeat -330px -270px}
+.insibox_list ul li a.insibox_locn53{background:url(../images/formula/formula.png) no-repeat -360px -270px}
+.insibox_list ul li a.insibox_locn54{background:url(../images/formula/formula.png) no-repeat -390px -270px}
+
+.txt{ font-size: 1em;border:none;font-family: Arial,"宋体",Verdana,Geneva,sans-serif;}

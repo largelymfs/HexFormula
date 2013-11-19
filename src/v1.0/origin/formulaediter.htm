@@ -1,0 +1,522 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>公式与符号</title>
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery-1.7.2.js" type="text/javascript"></script>
+    <script src="Scripts/Formula/Auto-growing.js" type="text/javascript"></script>
+    <script src="Scripts/Formula/jquery.queryloader2.js" type="text/javascript"></script>
+    <script src="Scripts/Formula/MathML_pro.js" type="text/javascript"></script>
+    <script src="Scripts/Formula/MathMLEditor.js" type="text/javascript"></script>
+    <script src="Scripts/Formula/MathMLpage.js" type="text/javascript"></script>
+    <link href="css/formula.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="insert_formula">
+        <h1>
+            插入公式</h1>
+        <div class="infor_box">
+            <div class="infor_tab">
+                <ul class="infor_tabul">
+                    <li><a href="#" class="intabul_click" id="box1" onclick="setTab('box',1,2)">公式</a></li>
+                    <li><a href="#" id="box2" onclick="setTab('box',2,2)">符号</a></li>
+                </ul>
+                <div class="infor_cen" id="comtab_box_1">
+                    <div class="formula_list">
+                        <dl>
+                            <dt><a href="#" class="fosi_fs"></a></dt>
+                            <dd>
+                                <a href="#">分数</a></dd>
+                            <div class="fosi_fsboxd" style="display: none;">
+                                <span></span>
+                                <h2>
+                                    分数</h2>
+                                <ul>
+                                    <li><a href="#" id="fenshushushi">
+                                        <img src="images/formula/fosi_fslocn.gif"></a></li>
+                                    <li><a href="#" id="fenshuhengshi">
+                                        <img src="images/formula/formula_48.gif"></a></li>
+                                    <div class="clear">
+                                    </div>
+                                </ul>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt><a href="#" class="fosi_jb"></a></dt>
+                            <dd>
+                                <a href="#">上下标</a></dd>
+                            <div class="fosi_fsboxd" style="display: none;">
+                                <span></span>
+                                <h2>
+                                    上标和下标</h2>
+                                <ul>
+                                    <li><a href="#" id="shangbiao">
+                                        <img src="images/formula/formula_03.png" /></a></li>
+                                    <li><a href="#" id="xiabiao">
+                                        <img src="images/formula/formula_05.png" /></a></li>
+                                    <li><a href="#" id="shangxiabiao">
+                                        <img src="images/formula/formula_07.png" /></a></li>
+                                    <li><a href="#" id="zuoshangxiabiao">
+                                        <img src="images/formula/formula_09.png" /></a></li>
+                                    <div class="clear">
+                                    </div>
+                                </ul>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt><a href="#" class="fosi_gs"></a></dt>
+                            <dd>
+                                <a href="#">根式</a></dd>
+                            <div class="fosi_fsboxd" style="display: none;">
+                                <span></span>
+                                <h2>
+                                    根式</h2>
+                                <ul>
+                                    <li><a href="#" id="pingfanggen">
+                                        <img src="images/formula/formula_36.png" /></a></li>
+                                    <li><a href="#" id="daicishupingfanggen">
+                                        <img src="images/formula/formula_37.png" /></a></li>
+                                    <div class="clear">
+                                    </div>
+                                </ul>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt><a href="#" class="fosi_jf"></a></dt>
+                            <dd>
+                                <a href="#">积分</a></dd>
+                            <div class="fosi_fsbox" style="display: none;">
+                                <span></span>
+                                <div class="fosi_fsboxcon">
+                                    <h2>
+                                        积分</h2>
+                                    <ul>
+                                        <li><a href="#" id="yichongjifen1">
+                                            <img src="images/formula/formula_16.jpg" /></a></li>
+                                        <li><a href="#" id="yichongjifen2">
+                                            <img src="images/formula/formula_18.jpg" /></a></li>
+                                        <li><a href="#" id="erchongjifen1">
+                                            <img src="images/formula/formula_33.jpg" /></a></li>
+                                        <li><a href="#" id="erchongjifen2">
+                                            <img src="images/formula/formula_34.jpg" /></a></li>
+                                        <li><a href="#" id="sanchongjifen1">
+                                            <img src="images/formula/formula_44.jpg" /></a></li>
+                                        <li><a href="#" id="sanchongjifen2">
+                                            <img src="images/formula/formula_45.jpg" /></a></li>
+                                        <div class="clear">
+                                        </div>
+                                    </ul>
+                                    <h2>
+                                        围道积分</h2>
+                                    <ul>
+                                        <li><a href="#" id="yichongweidaojifen1">
+                                            <img src="images/formula/formula_61.jpg" /></a></li>
+                                        <li><a href="#" id="yichongweidaojifen2">
+                                            <img src="images/formula/formula_62.jpg" /></a></li>
+                                        <li><a href="#" id="erchongweidaojifen1">
+                                            <img src="images/formula/formula_76.jpg" /></a></li>
+                                        <li><a href="#" id="erchongweidaojifen2">
+                                            <img src="images/formula/formula_77.jpg" /></a></li>
+                                        <li><a href="#" id="sanchongweidaojifen1">
+                                            <img src="images/formula/formula_94.jpg" /></a></li>
+                                        <li><a href="#" id="sanchongweidaojifen2">
+                                            <img src="images/formula/formula_95.jpg" /></a></li>
+                                        <div class="clear">
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt><a href="#" class="fosi_ysf"></a></dt>
+                            <dd>
+                                <a href="#">大型运算符</a></dd>
+                            <div class="fosi_fsbox" style="display: none;">
+                                <span></span>
+                                <div class="fosi_fsboxcon">
+                                    <h2>
+                                        求和</h2>
+                                    <ul>
+                                        <li><a href="#" id="qiuhe1">
+                                            <img src="images/formula/formula_52.png" /></a></li>
+                                        <li><a href="#" id="qiuhe2">
+                                            <img src="images/formula/formula_53.png" /></a></li>
+                                        <div class="clear">
+                                        </div>
+                                    </ul>
+                                    <h2>
+                                        乘积和副积</h2>
+                                    <ul>
+                                        <li><a href="#" id="chengji1">
+                                            <img src="images/formula/formula_64.png" /></a></li>
+                                        <li><a href="#" id="chengji2">
+                                            <img src="images/formula/formula_65.png" /></a></li>
+                                        <li><a href="#" id="fuji1">
+                                            <img src="images/formula/formula_85.png" /></a></li>
+                                        <li><a href="#" id="fuji2">
+                                            <img src="images/formula/formula_86.png" /></a></li>
+                                        <div class="clear">
+                                        </div>
+                                    </ul>
+                                    <h2>
+                                        交集和并集</h2>
+                                    <ul>
+                                        <li><a href="#" id="bingji1">
+                                            <img src="images/formula/formula_66.png" /></a></li>
+                                        <li><a href="#" id="bingji2">
+                                            <img src="images/formula/formula_67.png" /></a></li>
+                                        <li><a href="#" id="jiaoji1">
+                                            <img src="images/formula/formula_87.png" /></a></li>
+                                        <li><a href="#" id="jiaoji2">
+                                            <img src="images/formula/formula_88.png" /></a></li>
+                                        <div class="clear">
+                                        </div>
+                                    </ul>
+                                    <h2>
+                                        其他大型运算符</h2>
+                                    <ul>
+                                        <li><a href="#" id="vee1">
+                                            <img src="images/formula/formula_69.png" /></a></li>
+                                        <li><a href="#" id="vee2">
+                                            <img src="images/formula/formula_71.png" /></a></li>
+                                        <li><a href="#" id="wedge1">
+                                            <img src="images/formula/formula_89.png" /></a></li>
+                                        <li><a href="#" id="wedge2">
+                                            <img src="images/formula/formula_90.png" /></a></li>
+                                        <div class="clear">
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt><a href="#" class="fosi_fkh"></a></dt>
+                            <dd>
+                                <a href="#">方括号</a></dd>
+                            <div class="fosi_fsbox" style="display: none;">
+                                <span></span>
+                                <h2>
+                                    大型括号</h2>
+                                <ul>
+                                    <li><a href="#" id="dakuohao">
+                                        <img src="images/formula/formula_97.png" /></a></li>
+                                    <li><a href="#" id="zhongkuohao">
+                                        <img src="images/formula/formula_98.png" /></a></li>
+                                    <li><a href="#" id="xiaokuohao">
+                                        <img src="images/formula/formula_99.png" /></a></li>
+                                    <li><a href="#" id="dakuohao2">
+                                        <img src="images/formula/formula_97_1.png" /></a></li>
+                                    <li><a href="#" id="zhongkuohao2">
+                                        <img src="images/formula/formula_98_1.png" /></a></li>
+                                    <li><a href="#" id="xiaokuohao2">
+                                        <img src="images/formula/formula_99_1.png" /></a></li>
+                                    <div class="clear">
+                                    </div>
+                                </ul>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt><a href="#" class="fosi_hs"></a></dt>
+                            <dd>
+                                <a href="#">函数</a></dd>
+                            <div class="fosi_fsbox" style="display: none;">
+                                <span></span>
+                                <div class="fosi_fsboxcon">
+                                    <h2>
+                                        三角函数</h2>
+                                    <ul>
+                                        <li><a href="#" id="zhengxianhanshu">
+                                            <img src="images/formula/formula_116.png" /></a></li>
+                                        <li><a href="#" id="yuxianhanshu">
+                                            <img src="images/formula/formula_118.png" /></a></li>
+                                        <li><a href="#" id="zhengqiehanshu">
+                                            <img src="images/formula/formula_120.png" /></a></li>
+                                        <li><a href="#" id="yugehanshu">
+                                            <img src="images/formula/formula_143.png" /></a></li>
+                                        <li><a href="#" id="zhenggehanshu">
+                                            <img src="images/formula/formula_144.png" /></a></li>
+                                        <li><a href="#" id="yuqiehanshu">
+                                            <img src="images/formula/formula_145.png" /></a></li>
+                                        <div class="clear">
+                                        </div>
+                                    </ul>
+                                    <h2>
+                                        反函数</h2>
+                                    <ul>
+                                        <li><a href="#" id="fzhengxianhanshu">
+                                            <img src="images/formula/formula_167.png" /></a></li>
+                                        <li><a href="#" id="fyuxianhanshu">
+                                            <img src="images/formula/formula_168.png" /></a></li>
+                                        <li><a href="#" id="fzhengqiehanshu">
+                                            <img src="images/formula/formula_169.png" /></a></li>
+                                        <li><a href="#" id="fyugehanshu">
+                                            <img src="images/formula/formula_185.png" /></a></li>
+                                        <li><a href="#" id="fzhenggehanshu">
+                                            <img src="images/formula/formula_186.png" /></a></li>
+                                        <li><a href="#" id="fyuqiehanshu">
+                                            <img src="images/formula/formula_187.png" /></a></li>
+                                        <div class="clear">
+                                        </div>
+                                    </ul>
+                                    <h2>
+                                        双曲函数</h2>
+                                    <ul>
+                                        <li><a href="#" id="sqzhengxianhanshu">
+                                            <img src="images/formula/formula_203.png" /></a></li>
+                                        <li><a href="#" id="sqyuxianhanshu">
+                                            <img src="images/formula/formula_204.png" /></a></li>
+                                        <li><a href="#" id="sqzhengqiehanshu">
+                                            <img src="images/formula/formula_205.png" /></a></li>
+                                        <li><a href="#" id="sqyugehanshu">
+                                            <img src="images/formula/formula_217.png" /></a></li>
+                                        <li><a href="#" id="sqzhenggehanshu">
+                                            <img src="images/formula/formula_218.png" /></a></li>
+                                        <li><a href="#" id="sqyuqiehanshu">
+                                            <img src="images/formula/formula_219.png" /></a></li>
+                                        <div class="clear">
+                                        </div>
+                                    </ul>
+                                    <h2>
+                                        反双曲函数</h2>
+                                    <ul>
+                                        <li><a href="#" id="fsqzhengxianhanshu">
+                                            <img src="images/formula/formula_123.png" /></a></li>
+                                        <li><a href="#" id="fsqyuxianhanshu">
+                                            <img src="images/formula/formula_125.png" /></a></li>
+                                        <li><a href="#" id="fsqzhengqiehanshu">
+                                            <img src="images/formula/formula_127.png" /></a></li>
+                                        <li><a href="#" id="fsqyugehanshu">
+                                            <img src="images/formula/formula_146.png" /></a></li>
+                                        <li><a href="#" id="fsqzhenggehanshu">
+                                            <img src="images/formula/formula_147.png" /></a></li>
+                                        <li><a href="#" id="fsqyuqiehanshu">
+                                            <img src="images/formula/formula_148.png" /></a></li>
+                                        <div class="clear">
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dl>
+                        <dl class="forsi_font">
+                            <dt><a href="#" class="fosi_qdwz"></a></dt>
+                            <dd>
+                                <a href="#">导数</a></dd>
+                            <div class="fosi_fsbox" style="display: none;">
+                                <span></span>
+                                <div class="fosi_fsboxcon">
+                                    <h2>
+                                        导数符号</h2>
+                                    <ul>
+                                        <li><a href="#" id="dian">
+                                            <img src="images/formula/formula_107.png" /></a></li>
+                                        <li><a href="#" id="shuangdian">
+                                            <img src="images/formula/formula_109.png" /></a></li>
+                                        <li><a href="#" id="sandian">
+                                            <img src="images/formula/formula_111.png" /></a></li>
+                                        <li><a href="#" id="chengminghao">
+                                            <img src="images/formula/formula_113.png" /></a></li>
+                                        <li><a href="#" id="duihao">
+                                            <img src="images/formula/formula_133.png" /></a></li>
+                                        <li><a href="#" id="jianyin">
+                                            <img src="images/formula/formula_134.png" /></a></li>
+                                        <li><a href="#" id="yiyin">
+                                            <img src="images/formula/formula_135.png" /></a></li>
+                                        <li><a href="#" id="duanyin">
+                                            <img src="images/formula/formula_136.png" /></a></li>
+                                        <li><a href="#" id="ehua">
+                                            <img src="images/formula/formula_153.png" /></a></li>
+                                        <li><a href="#" id="henggang">
+                                            <img src="images/formula/formula_154.png" /></a></li>
+                                        <li><a href="#" id="shuangdingxian">
+                                            <img src="images/formula/formula_155.png" /></a></li>
+                                        <li><a href="#" id="sfdakuohao">
+                                            <img src="images/formula/formula_156.png" /></a></li>
+                                        <li><a href="#" id="xfdakuohao">
+                                            <img src="images/formula/formula_170.png" /></a></li>
+                                        <li><a href="#" id="zuojiantou">
+                                            <img src="images/formula/formula_173.png" /></a></li>
+                                        <li><a href="#" id="youjiantou">
+                                            <img src="images/formula/formula_178.png" /></a></li>
+                                        <li><a href="#" id="zuoyoujiantou">
+                                            <img src="images/formula/formula_179.png" /></a></li>
+                                        <div class="clear">
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt><a href="#" class="fosi_xzrz"></a></dt>
+                            <dd>
+                                <a href="#">极限和对数</a></dd>
+                            <div class="fosi_fsboxd" style="display: none;">
+                                <span></span>
+                                <h2>
+                                    函数</h2>
+                                <ul>
+                                    <li><a href="#" id="duishu">
+                                        <img src="images/formula/formula_12.png" /></a></li>
+                                    <li><a href="#" id="jixian">
+                                        <img src="images/formula/formula_14.png" /></a></li>
+                                    <li><a href="#" id="jixiaozhi">
+                                        <img src="images/formula/formula_31.png" /></a></li>
+                                    <li><a href="#" id="jidazhi">
+                                        <img src="images/formula/formula_32.png" /></a></li>
+                                    <div class="clear">
+                                    </div>
+                                </ul>
+                            </div>
+                        </dl>
+                        <!--<dl>
+                            <dt><a href="#" class="fosi_gx"></a></dt>
+                            <dd>
+                                <a href="#">关系</a></dd>
+                        </dl>-->
+                        <dl>
+                            <dt><a href="#" class="fosi_jz"></a></dt>
+                            <dd>
+                                <a href="#">矩阵</a></dd>
+                            <div class="fosi_fsboxd" style="display: none; position: fixed;">
+                                <span></span>
+                                <h2>
+                                    空矩阵</h2>
+                                <ul>
+                                    <li><a href="#" id="juzhen">
+                                        <img src="images/formula/formula_51.png" /></a></li>
+                                    <li><a href="#" id="juzhen2">
+                                        <img src="images/formula/formula_210.png" /></a></li>
+                                    <div class="clear">
+                                    </div>
+                                </ul>
+                            </div>
+                        </dl>
+                        <div class="clear">
+                        </div>
+                    </div>
+                </div>
+                <div class="infor_cen  d_undis" id="comtab_box_2">
+                    <div class="sign_box">
+                        <div class="sign_prev">
+                            <a href="#" class="signlist_left"></a>
+                        </div>
+                        <div class="sign_list">
+                            <ul>
+                                <li><a href="#" class="base_math01"></a><a href="#" class="base_math02"></a></li>
+                                <li><a href="#" class="base_math03"></a><a href="#" class="base_math04"></a></li>
+                                <li><a href="#" class="base_math05"></a><a href="#" class="base_math06"></a></li>
+                                <li><a href="#" class="base_math07"></a><a href="#" class="base_math08"></a></li>
+                                <li><a href="#" class="base_math09"></a><a href="#" class="base_math10"></a></li>
+                                <li><a href="#" class="base_math11"></a><a href="#" class="base_math12"></a></li>
+                                <li><a href="#" class="base_math13"></a><a href="#" class="base_math14"></a></li>
+                                <li><a href="#" class="base_math15"></a><a href="#" class="base_math16"></a></li>
+                                <li><a href="#" class="base_math17"></a><a href="#" class="base_math18"></a></li>
+                                <li><a href="#" class="base_math19"></a><a href="#" class="base_math20"></a></li>
+                                <li><a href="#" class="base_math21"></a><a href="#" class="base_math22"></a></li>
+                                <li><a href="#" class="base_math23"></a><a href="#" class="base_math24"></a></li>
+                                <li><a href="#" class="base_math25"></a><a href="#" class="base_math26"></a></li>
+                                <li><a href="#" class="base_math27"></a><a href="#" class="base_math28"></a></li>
+                                <li><a href="#" class="base_math29"></a><a href="#" class="base_math30"></a></li>
+                                <li><a href="#" class="base_math31"></a><a href="#" class="base_math32"></a></li>
+                                <li><a href="#" class="base_math33"></a><a href="#" class="base_math34"></a></li>
+                                <li><a href="#" class="base_math35"></a><a href="#" class="base_math36"></a></li>
+                                <li><a href="#" class="base_math37"></a><a href="#" class="base_math38"></a></li>
+                                <li><a href="#" class="base_math39"></a><a href="#" class="base_math40"></a></li>
+                                <li><a href="#" class="base_math41"></a><a href="#" class="base_math42"></a></li>
+                                <li><a href="#" class="base_math43"></a><a href="#" class="base_math44"></a></li>
+                                <li><a href="#" class="base_math45"></a><a href="#" class="base_math46"></a></li>
+                                <li><a href="#" class="base_math47"></a><a href="#" class="base_math48"></a></li>
+                                <li><a href="#" class="base_math49"></a><a href="#" class="base_math50"></a></li>
+                                <li><a href="#" class="base_math51"></a><a href="#" class="base_math52"></a></li>
+                                <li><a href="#" class="base_math53"></a><a href="#" class="base_math54"></a></li>
+                                <li><a href="#" class="base_math55"></a><a href="#" class="base_math56"></a></li>
+                                <li><a href="#" class="base_math57"></a><a href="#" class="base_math58"></a></li>
+                                <li><a href="#" class="base_math59"></a><a href="#" class="base_math60"></a></li>
+                                <li><a href="#" class="base_math61"></a><a href="#" class="base_math62"></a></li>
+                                <li><a href="#" class="base_math63"></a><a href="#" class="base_math64"></a></li>
+                                <li><a href="#" class="base_math65"></a><a href="#" class="base_math66"></a></li>
+                                <li><a href="#" class="base_math67"></a><a href="#" class="base_math68"></a></li>
+                                <li><a href="#" class="base_math69"></a><a href="#" class="base_math70"></a></li>
+                                <div class="clear">
+                                </div>
+                            </ul>
+                            <ul>
+                            </ul>
+                            <div class="clear">
+                            </div>
+                        </div>
+                        <div class="sign_prev">
+                            <a href="#" class="signlist_right"></a>
+                        </div>
+                        <div class="clear">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="forsi_select" id="formula_content">
+                <span content="true"><span style="visibility: hidden;">-</span><b>□</b></span>
+            </div>
+            <div class="forsi_btn">
+                <span class="flow_btn">
+                    <input name="" type="button" id="test" value="对比值" /><em></em></span> <span class="flow_btn">
+                        <input name="" type="button" id="tiaoshi2" value="取消" /><em></em></span>
+                <span class="flow_btn">
+                    <input name="" type="button" id="submit" value="确定" /><em></em></span>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $("[content='true']").click();
+            $("#tiaoshi1").click(function () {
+                $("span").each(function () {
+                    if ($(this).attr("content") == "true") {
+                        alert($(this).width());
+                    }
+                })
+            })
+            $("#tiaoshi2").click(function () {
+                $("#formula_content").html("<span content='true'><span style='visibility: hidden;'>-</span>□</span>")
+            })
+            $("#tiaoshi3").click(function () {
+                if ($.browser.msie) {
+                    alert("this is msie  version:" + $.browser.version);
+                }
+                else if ($.browser.safari) {
+                    alert("this is safari  version:" + $.browser.version);
+                }
+                else if ($.browser.mozilla) {
+                    alert("this is mozilla  version:" + $.browser.version);
+                }
+                else if ($.browser.opera) {
+                    alert("this is opera  version:" + $.browser.version);
+                }
+                else {
+                    alert("i don't konw!");
+                }
+            })
+            $("#test").click(function () {
+                var str = "";
+                $("#formula_content").find("span").each(function () {
+                    if ($(this).attr("math") != undefined) {
+                        str += $(this).attr("math");
+                    }
+                    if ($(this).find("span").length == 0) {
+                        str += $(this).text();
+                    } else {
+                        var temp = $(this).clone();
+                        temp.find("span").remove();
+                        str += temp.text();
+                    }
+                })
+                alert(str);
+            })
+        })
+    </script>
+    <div style="position: fixed; top: 100px; left: 20px; display: none;">
+        <input type="button" id="tiaoshi1" value="显示总长度" /><br />
+        <input type="button" id="tiaoshi2" value="清空所有内容" /><br />
+        <input type="button" id="tiaoshi3" value="显示内核版本" />
+    </div>
+</body>
+</html>

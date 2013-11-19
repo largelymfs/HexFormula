@@ -1,0 +1,30 @@
+This is the plugin version of VFE for TinyMCE rich editor.
+
+Installation
+=============================
+The following instructions will help you to download and install VEF with
+TinyMCE rich editor in your web application.
+
+1. Download and integrate TinyMCE rich editor into your web application,
+   please refer to TinyMCE installation document on 
+   http://www.tinymce.com/wiki.php/Installation
+
+2. Download TinyMCE plugin verison of VFE from
+   http://github.com/....
+
+3. Create an empty directory under TinyMCE deployed home directory, and copy
+   all files under the VFE source directory into this directory.
+
+4. Configure TinyMCE to enable the plugin named formula, please refer to the
+   TinyMCE manual: http://www.tinymce.com/wiki.php/Configuration
+
+Usage
+=============================
+1. After correctly deploying and configuring TinyMCE and VFE, you can access 
+VFE by click the formula editor icon on toolbar of TinyMCE. This will bring
+a modal dialog which contains the VFE UI. 
+
+2. Design and edit your formula in the dialog, use Reset or 重置 button to
+clear all input.
+ 
+3. Click OK or 确定 to insert this formula to TinyMCE editor area.
