@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title i18n>${page.title}</title>
+    <title data-i18n="${page.title}"></title>
     <link href="./css/common.css" rel="stylesheet" type="text/css" />
     <script src="./Scripts/jquery-1.7.2.js" type="text/javascript"></script>
     <script src="./Scripts/Formula/Auto-growing.js" type="text/javascript"></script>
@@ -470,14 +470,14 @@
     </div>
     <script>
         $(function () {
-            //i18n
+            //i18n process
             $.i18n.properties({
               name:'formula',
               path:'Scripts/',
               mode:'map',
               callback:function(){
-                $("[i18n]").each(function(){
-                  var content = $(this).text().trim();
+                $("[data-i18n]").each(function(){
+                  var content = $(this).attr("data-i18n").trim();
                   if(/\$\{.+\}/.test(content)) {
                     var key = content.substring(2, content.length - 1);
                     $(this).text($.i18n.prop(key));
