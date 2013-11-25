@@ -2,37 +2,37 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title data-i18n="page.title"></title>
-    <link href="./css/common.css" rel="stylesheet" type="text/css" />
-    <script src="./Scripts/jquery-1.7.2.js" type="text/javascript"></script>
-    <script src="./Scripts/Formula/Auto-growing.js" type="text/javascript"></script>
-    <script src="./Scripts/Formula/jquery.queryloader2.js" type="text/javascript"></script>
-    <script src="./Scripts/Formula/MathML_pro.js" type="text/javascript"></script>
-    <script src="./Scripts/Formula/MathMLEditor.js" type="text/javascript"></script>
-    <script src="./Scripts/Formula/MathMLpage.js" type="text/javascript"></script>
+    <title data-i18n="page.formulasymbol"></title>
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery-1.7.2.js" type="text/javascript"></script>
+    <script src="Scripts/Formula/Auto-growing.js" type="text/javascript"></script>
+    <script src="Scripts/Formula/jquery.queryloader2.js" type="text/javascript"></script>
+    <script src="Scripts/Formula/MathML_pro.js" type="text/javascript"></script>
+    <script src="Scripts/Formula/MathMLEditor.js" type="text/javascript"></script>
+    <script src="Scripts/Formula/MathMLpage.js" type="text/javascript"></script>
     <script src="Scripts/jquery.i18n.properties-min-1.0.9.js" type="text/javascript"></script>
-    <link href="./css/formula.css" rel="stylesheet" type="text/css" />
+    <link href="css/formula.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div class="insert_formula">
-        <!-- i18n attribute indecates this tag text should be translated. -->
-        <h1 data-i18n="page.insert"></h1>
+        <h1 data-i18n="page.insertformula">
+            </h1>
         <div class="infor_box">
             <div class="infor_tab">
                 <ul class="infor_tabul">
-                    <li><a href="#" class="intabul_click" id="box1" onclick="setTab('box',1,2)">公式</a></li>
-                    <li><a href="#" id="box2" onclick="setTab('box',2,2)">符号</a></li>
+                    <li><a href="#" class="intabul_click" id="box1" onclick="setTab('box',1,2)" data-i18n="page.formula"></a></li>
+                    <li><a href="#" id="box2" onclick="setTab('box',2,2)" data-i18n="page.symbol"></a></li>
                 </ul>
                 <div class="infor_cen" id="comtab_box_1">
                     <div class="formula_list">
                         <dl>
                             <dt><a href="#" class="fosi_fs"></a></dt>
                             <dd>
-                                <a href="#">分数</a></dd>
+                                <a href="#" data-i18n="page.frac"></a></dd>
                             <div class="fosi_fsboxd" style="display: none;">
                                 <span></span>
-                                <h2>
-                                    分数</h2>
+                                <h2 data-i18n="page.frac">
+                                    </h2>
                                 <ul>
                                     <li><a href="#" id="fenshushushi">
                                         <img src="images/formula/fosi_fslocn.gif"></a></li>
@@ -46,11 +46,11 @@
                         <dl>
                             <dt><a href="#" class="fosi_jb"></a></dt>
                             <dd>
-                                <a href="#">上下标</a></dd>
+                                <a href="#" data-i18n="page.supersub"></a></dd>
                             <div class="fosi_fsboxd" style="display: none;">
                                 <span></span>
-                                <h2>
-                                    上标和下标</h2>
+                                <h2 data-i18n="page.supersub">
+                                    </h2>
                                 <ul>
                                     <li><a href="#" id="shangbiao">
                                         <img src="images/formula/formula_03.png" /></a></li>
@@ -68,11 +68,11 @@
                         <dl>
                             <dt><a href="#" class="fosi_gs"></a></dt>
                             <dd>
-                                <a href="#">根式</a></dd>
+                                <a href="#" data-i18n="page.root"></a></dd>
                             <div class="fosi_fsboxd" style="display: none;">
                                 <span></span>
-                                <h2>
-                                    根式</h2>
+                                <h2 data-i18n="page.root">
+                                    </h2>
                                 <ul>
                                     <li><a href="#" id="pingfanggen">
                                         <img src="images/formula/formula_36.png" /></a></li>
@@ -86,12 +86,12 @@
                         <dl>
                             <dt><a href="#" class="fosi_jf"></a></dt>
                             <dd>
-                                <a href="#">积分</a></dd>
+                                <a href="#" data-i18n="page.integral"></a></dd>
                             <div class="fosi_fsbox" style="display: none;">
                                 <span></span>
                                 <div class="fosi_fsboxcon">
-                                    <h2>
-                                        积分</h2>
+                                    <h2 data-i18n="page.integral">
+                                        </h2>
                                     <ul>
                                         <li><a href="#" id="yichongjifen1">
                                             <img src="images/formula/formula_16.jpg" /></a></li>
@@ -108,8 +108,8 @@
                                         <div class="clear">
                                         </div>
                                     </ul>
-                                    <h2>
-                                        围道积分</h2>
+                                    <h2 data-i18n="page.contourintegral">
+                                        </h2>
                                     <ul>
                                         <li><a href="#" id="yichongweidaojifen1">
                                             <img src="images/formula/formula_61.jpg" /></a></li>
@@ -132,12 +132,12 @@
                         <dl>
                             <dt><a href="#" class="fosi_ysf"></a></dt>
                             <dd>
-                                <a href="#">大型运算符</a></dd>
+                                <a href="#" data-i18n="page.bigoperator"></a></dd>
                             <div class="fosi_fsbox" style="display: none;">
                                 <span></span>
                                 <div class="fosi_fsboxcon">
-                                    <h2>
-                                        求和</h2>
+                                    <h2 data-i18n="page.summation">
+                                        </h2>
                                     <ul>
                                         <li><a href="#" id="qiuhe1">
                                             <img src="images/formula/formula_52.png" /></a></li>
@@ -146,8 +146,8 @@
                                         <div class="clear">
                                         </div>
                                     </ul>
-                                    <h2>
-                                        乘积和副积</h2>
+                                    <h2 data-i18n="page.product">
+                                        </h2>
                                     <ul>
                                         <li><a href="#" id="chengji1">
                                             <img src="images/formula/formula_64.png" /></a></li>
@@ -160,8 +160,8 @@
                                         <div class="clear">
                                         </div>
                                     </ul>
-                                    <h2>
-                                        交集和并集</h2>
+                                    <h2 data-i18n="page.intersectionunion">
+                                        </h2>
                                     <ul>
                                         <li><a href="#" id="bingji1">
                                             <img src="images/formula/formula_66.png" /></a></li>
@@ -174,8 +174,8 @@
                                         <div class="clear">
                                         </div>
                                     </ul>
-                                    <h2>
-                                        其他大型运算符</h2>
+                                    <h2 data-i18n="page.otherbigoperator">
+                                        </h2>
                                     <ul>
                                         <li><a href="#" id="vee1">
                                             <img src="images/formula/formula_69.png" /></a></li>
@@ -194,11 +194,11 @@
                         <dl>
                             <dt><a href="#" class="fosi_fkh"></a></dt>
                             <dd>
-                                <a href="#">方括号</a></dd>
+                                <a href="#" data-i18n="page.bracket"></a></dd>
                             <div class="fosi_fsbox" style="display: none;">
                                 <span></span>
-                                <h2>
-                                    大型括号</h2>
+                                <h2 data-i18n="page.bracket">
+                                    </h2>
                                 <ul>
                                     <li><a href="#" id="dakuohao">
                                         <img src="images/formula/formula_97.png" /></a></li>
@@ -220,12 +220,12 @@
                         <dl>
                             <dt><a href="#" class="fosi_hs"></a></dt>
                             <dd>
-                                <a href="#">函数</a></dd>
+                                <a href="#" data-i18n="page.function"></a></dd>
                             <div class="fosi_fsbox" style="display: none;">
                                 <span></span>
                                 <div class="fosi_fsboxcon">
-                                    <h2>
-                                        三角函数</h2>
+                                    <h2 data-i18n="page.trigonometric">
+                                        </h2>
                                     <ul>
                                         <li><a href="#" id="zhengxianhanshu">
                                             <img src="images/formula/formula_116.png" /></a></li>
@@ -242,8 +242,8 @@
                                         <div class="clear">
                                         </div>
                                     </ul>
-                                    <h2>
-                                        反函数</h2>
+                                    <h2 data-i18n="page.antitrigonometric">
+                                        </h2>
                                     <ul>
                                         <li><a href="#" id="fzhengxianhanshu">
                                             <img src="images/formula/formula_167.png" /></a></li>
@@ -260,8 +260,8 @@
                                         <div class="clear">
                                         </div>
                                     </ul>
-                                    <h2>
-                                        双曲函数</h2>
+                                    <h2 data-i18n="page.hyperbolic">
+                                        </h2>
                                     <ul>
                                         <li><a href="#" id="sqzhengxianhanshu">
                                             <img src="images/formula/formula_203.png" /></a></li>
@@ -278,8 +278,8 @@
                                         <div class="clear">
                                         </div>
                                     </ul>
-                                    <h2>
-                                        反双曲函数</h2>
+                                    <h2 data-i18n="page.inversehyperbolic">
+                                        </h2>
                                     <ul>
                                         <li><a href="#" id="fsqzhengxianhanshu">
                                             <img src="images/formula/formula_123.png" /></a></li>
@@ -302,12 +302,12 @@
                         <dl class="forsi_font">
                             <dt><a href="#" class="fosi_qdwz"></a></dt>
                             <dd>
-                                <a href="#">导数</a></dd>
+                                <a href="#" data-i18n="page.derivative"></a></dd>
                             <div class="fosi_fsbox" style="display: none;">
                                 <span></span>
                                 <div class="fosi_fsboxcon">
-                                    <h2>
-                                        导数符号</h2>
+                                    <h2 data-i18n="page.derivative">
+                                        </h2>
                                     <ul>
                                         <li><a href="#" id="dian">
                                             <img src="images/formula/formula_107.png" /></a></li>
@@ -350,11 +350,11 @@
                         <dl>
                             <dt><a href="#" class="fosi_xzrz"></a></dt>
                             <dd>
-                                <a href="#">极限和对数</a></dd>
+                                <a href="#" data-i18n="page.limitlogarithm"></a></dd>
                             <div class="fosi_fsboxd" style="display: none;">
                                 <span></span>
-                                <h2>
-                                    函数</h2>
+                                <h2 data-i18n="page.limitlogarithm">
+                                    </h2>
                                 <ul>
                                     <li><a href="#" id="duishu">
                                         <img src="images/formula/formula_12.png" /></a></li>
@@ -377,11 +377,11 @@
                         <dl>
                             <dt><a href="#" class="fosi_jz"></a></dt>
                             <dd>
-                                <a href="#">矩阵</a></dd>
+                                <a href="#" data-i18n="page.matrix"></a></dd>
                             <div class="fosi_fsboxd" style="display: none; position: fixed;">
                                 <span></span>
-                                <h2>
-                                    空矩阵</h2>
+                                <h2 data-i18n="page.matrix">
+                                    </h2>
                                 <ul>
                                     <li><a href="#" id="juzhen">
                                         <img src="images/formula/formula_51.png" /></a></li>
@@ -459,12 +459,10 @@
             </div>
             <div class="forsi_btn">
                 <span class="flow_btn">
-                    <input name="" type="button" id="test" value="对比值" /><em></em></span> <span class="flow_btn">
-                        <input name="" type="button" id="reset" value="重置" /><em></em></span>
+                    <input name="" type="button" id="test" value="comparation" data-i18n="page.comparation"/><em></em></span> <span class="flow_btn">
+                        <input name="" type="button" id="tiaoshi2" data-i18n="page.Cancel" value="Cancel" /><em></em></span>
                 <span class="flow_btn">
-                        <input name="" type="button" id="cancel" value="取消" /><em></em></span>
-                <span class="flow_btn">
-                    <input name="" type="button" id="submit" value="确定" /><em></em></span>
+                    <input name="" type="button" id="submit" data-i18n="page.OK" value="OK" /><em></em></span>
             </div>
         </div>
     </div>
@@ -475,10 +473,16 @@
               name:'formula',
               path:'Scripts/',
               mode:'map',
+              //language:'en',
               callback:function(){
                 $("[data-i18n]").each(function(){
                   var key = $(this).attr("data-i18n").trim();
-                  $(this).text($.i18n.prop(key));
+                  if($(this).is("input")){
+                    $(this).val($.i18n.prop(key));
+                  }
+                  else{
+                    $(this).text($.i18n.prop(key));
+                  }
                 });
               }
             });
